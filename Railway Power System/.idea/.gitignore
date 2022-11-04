@@ -3,6 +3,7 @@
 /workspace.xml
 # Datasource local storage ignored files
 /../../../../:\Research Works\Railway Power System\.idea/dataSources/
+/../../../../:\Research Works\Railway Power System\results/*.*
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
