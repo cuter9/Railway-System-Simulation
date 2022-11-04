@@ -552,7 +552,7 @@ class RailSystemMenu(Menu):
             return messagebox.showinfo('No Default System !', 'Load Existing System!')
 
 
-def assign_id(existing_id):
+def assign_id(existing_id):    # assign operation case id
     exid = [int(i) for i in existing_id]
     id_list = []
     [id_list.append(x) for x in range(1000) if x not in exid and x != 0]
