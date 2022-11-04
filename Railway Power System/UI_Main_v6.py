@@ -1595,6 +1595,7 @@ class OpParamsFrm(Frame):
             del self.op_params['route_ops'][idx]
 
         self.op_params['op_cases'][self.idx_dfc].update(self.df_case)
+        self.op_params['df_case_id'] = self.df_case['case_id']
         self.set_df_case()
         self.system.op_params = self.op_params
         save_system(self.system, self.system.filename)
